@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1.700&display=swap');
+
+* {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+/*Estilo do cabeçalho*/
+
+.cabecalho {
+    margin: 0;
+    width: 100%;
+    background-color: #5300C8;
+}
+
+.cabecalho__elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #E5E5E5;
+    font-size: 25px;
+}
+
+/*Estilo do corpo*/
+
+
+
+.main h2 {
+    font-size: 24px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.main__addproduto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main__addproduto__formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+
+.main__addproduto__formulario input {
+    border-radius: 30px;
+    border: 3px solid #03318C;
+    width: 340px;
+    height: 30px;
+}
+
+.main__addproduto__formulario input::placeholder {
+    color: #03318C;
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+}
+
+.main__addproduto__botoes {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.main__addproduto__botoes button {
+    border-radius: 15px;
+    border: 3px solid #03318C;
+    width: 150px;
+    height: 50px;
+    background-color: #03318C;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+
+}
+
+#adicionar {
+    background-color: #03318C;
+    color: #FFFFFF;
+}
+
+#limpar {
+    background-color: #FFFFFF;
+    color: #03318C;
+}  
+
+/*Estilo dos cards*/
+
+.main__adicionados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    overflow-x: auto;
+    width: 60%;
+}
+
+.main__adicionados__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding-top: 40px;
+    overflow: auto;
+}
+
+.main__adicionados__lista__card {
+    justify-content: center;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    background-color: #5300C8;
+    color: #FFFFFF;
+    width: 330px;
+    height: 360px;
+    box-shadow: 0px 5px 5px 0px #D6D6D6;
+    white-space: nowrap;
+}
+
+.main__adicionados__card__info p {
+    font-size: 28px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+.main__adicionados__lista__card__imagem {
+    width: 60%;
+    max-height: 50%;
+    margin: 10px 10px 10px 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+.main__adicionados__card__info__valor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#adicionar, #limpar {
+    cursor: pointer;
+}
+
+#adicionar:hover {
+    background-color: #FFFFFF;
+    color: #03318C;
+}
+
+#limpar:hover {
+    background-color: #03318C;
+    color: #FFFFFF;
+}
+
+/*Estilo do rodapé*/
+
+.rodape {
+    width: 100%;
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rodape__elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #E5E5E5;
+    font-size: 15px;
+    font-size: 25px;
+}
+
+.rodape p {
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+@media  (min-width: 734px){
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .main h2 {
+        height: 10px;
+    }
+
+    .main__addproduto {
+        gap: 50px;
+    }
+
+    .main__addproduto__botoes {
+        padding-top: 0px;
+    }
+
+    .main__produtos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .main__adicionados {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+        height: 400px;
+        
+    }
+
+    .main__adicionados h2 {
+        position: fixed;
+        top: 80px;
+        right: 50%;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+
+    .main__adicionados__lista {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        overflow: scroll;
+    }
+
+    .main__adicionados__lista__card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

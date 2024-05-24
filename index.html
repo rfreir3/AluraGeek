@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/mainStyle.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+
+        <h1 class="cabecalho__elementos"> 
+            <img src="assets/pixel-heart.svg" alt="heart's pixel art"> 
+            AluraGeek 
+        </h1>
+
+    </header>
+    <main class="main">
+        <section class="main__addproduto">
+            <h2>Adicionar<br>produto:</h2>
+            <form class="main__addproduto__formulario" action="/submit_form" data-form>
+                <input type="text" name="pnome" id="pnome" placeholder="Nome do Produto">
+
+                <input type="text" name="ppreco" id="ppreco" placeholder="Preço do Produto">
+
+                <input type="text" name="pimagem" id="pimagem" placeholder="Imagem do Produto">
+            </form>
+            
+            <div class="main__addproduto__botoes">
+            
+                <button type="submit"
+                id="adicionar">Adicionar Produto</button>
+
+                <button type="button" id="limpar">Limpar</button>
+            </div>
+        </section>        
+
+        <section class="main__adicionados">
+
+            <h2>Meus produtos:</h2>
+            <div class="main__adicionados__lista">
+                
+        </section>
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__elementos"> 
+            <img src="assets/pixel-heart.svg" alt="heart's pixel art"> 
+            AluraGeek 
+        </h2>
+        <p>DESENVOLVIDO POR RAFAEL OLIVEIRA FREIRE</p>
+    </footer>
+
+    <script src="scripts/mostraItens.js" type="module"></script>
+    <script type="module" src="scripts/addItem.js"></script>
+    <script type="module" src="scripts/deleteItem.js"></script>
+</body>
+</html>

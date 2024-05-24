@@ -1,0 +1,127 @@
+{
+  "Produtos": [
+    {
+      "id": "3353",
+      "nome": "Camiseta Super Mario",
+      "valor": "150,00",
+      "imagem": "https://down-br.img.susercontent.com/file/b2d59c3fb8df3286b9f318b96b3e1c9a",
+      "status": false,
+      "categoria": "camiseta"
+    },
+    {
+      "id": "7f64",
+      "nome": "Garrafa Garfield",
+      "valor": "120,00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2olfEb4CaJEseKswVSfjgbJ7gSDeHUWbgtc9jLnQXQ&s",
+      "status": false,
+      "categoria": "garrafa"
+    },
+    {
+      "id": "24d0",
+      "nome": "caneta pokemon",
+      "valor": "55,00",
+      "imagem": "https://omundodanuvem.com/cdn/shop/products/canetapokemonazul_1024x1024.png?v=1646958211",
+      "status": false,
+      "categoria": "caneta"
+    },
+    {
+      "nome": "Camiseta Pokemon",
+      "valor": "120,00",
+      "imagem": "https://www.merchandisingplaza.com.br/219834/2/Camisetas-Pokemon-Camiseta-Pokemon-Pikachu-and-Friend",
+      "id": "T4IVylz",
+      "status": false,
+      "categoria": "camiseta"
+    },
+    {
+      "nome": "Caneta Stars Wars",
+      "valor": "60,00",
+      "imagem": "https://cdn.awsli.com.br/600x450/1181/1181427/produto/44618196/a8aef0c627.jpg",
+      "id": "0_b6173",
+      "status": false,
+      "categoria": "caneta"
+    },
+    {
+      "id": "059e",
+      "nome": "Caneca Avengers",
+      "valor": "120,00",
+      "imagem": "https://dcdn.mitiendanube.com/stores/001/242/707/products/caneca_181-e6b81180c01316b3181593355929108",
+      "status": false,
+      "categoria": "caneca"
+    },
+    {
+      "id": "37a7",
+      "nome": "caneta pokemon",
+      "valor": "55,00",
+      "imagem": "\"https://omundodanuvem.com/cdn/shop/products/canetapokemonazul_1024x1024.png?v=1646958211\"    \"s",
+      "status": false,
+      "categoria": "caneta"
+    },
+    {
+      "id": "2033",
+      "nome": "Caneta Stars Wars",
+      "valor": "60,00",
+      "imagem": "https://cdn.awsli.com.br/600x450/1181/1181427/produto/44618196/a8aef0c627.jpg",
+      "status": false,
+      "categoria": "caneta"
+    },
+    {
+      "id": "ec44",
+      "nome": "Garrafa Garfield",
+      "valor": "120,00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl2olfEb4CaJEseKswVSfjgbJ7gSDeHUWbgtc9jLnQXQ&s",
+      "status": false,
+      "categoria": "garrafa"
+    },
+    {
+      "id": "6b7f",
+      "nome": "Camiseta Super Mário",
+      "valor": "150,00",
+      "imagem": "https://down-br.img.susercontent.com/file/b2d59c3fb8df3286b9f318b96b3e1c9a",
+      "status": false,
+      "categoria": "camiseta"
+    },
+    {
+      "id": "9117",
+      "nome": "Camiseta Pokémon",
+      "valor": "120,00",
+      "imagem": "https://www.merchandisingplaza.com.br/219834/2/Camisetas-Pokemon-Camiseta-Pokemon-Pikachu-and-Friend",
+      "status": false,
+      "categoria": "camiseta"
+    },
+    {
+      "id": "3833",
+      "nome": "Caneca Batman",
+      "valor": "120,00",
+      "imagem": "https://storage.geralgeek.com.br/images/venda/caneca-batman-5f53d802b6e56.jpg",
+      "status": false
+    },
+    {
+      "id": "53ec",
+      "nome": "Camiseta Pokemon",
+      "valor": "120,00",
+      "imagem": "https://www.merchandisingplaza.com.br/219834/2/Camisetas-Pokemon-Camiseta-Pokemon-Pikachu-and-Friend",
+      "status": false
+    },
+    {
+      "id": "a2d2",
+      "nome": "Pelúcia Donkey Kong",
+      "valor": "180,00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNT1o7ZEOPsgr60qFBnUVNCT4LNJs_JDNtmA&s",
+      "status": false
+    },
+    {
+      "id": "4c87",
+      "nome": "Pantufa Stitch",
+      "valor": "120,00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCvuFtZB9mDDYvPgUy4Gi2vKerpnImhU-QQ&s",
+      "status": false
+    },
+    {
+      "id": "f2e8",
+      "nome": "Caneta Stars Wars",
+      "valor": "60,00",
+      "imagem": "https://cdn.awsli.com.br/600x450/1181/1181427/produto/44618196/a8aef0c627.jpg",
+      "status": false
+    }
+  ]
+}
